@@ -13,15 +13,12 @@ public class LeerDiccionario {
     BinaryTree arbol= new BinaryTree();
         public  void leerArchivo(){
     
-       
          /*Declaracion de variables*/
         String micadena = null;
         String linea=null;
         
-        
         FileReader fr;
         BufferedReader br;
-                
         
         try
         {
